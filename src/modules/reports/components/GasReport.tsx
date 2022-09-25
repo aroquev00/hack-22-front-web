@@ -96,7 +96,7 @@ export default function RegistrarCliente() {
             mismatch: false,
         },
         {
-            date: new Date(),
+            date: new Date(new Date().setDate(new Date().getDate()-35)),
             gasStation: "PEMEX TEC",
             liters: 5,
             gasType: "Premium",
@@ -144,7 +144,7 @@ export default function RegistrarCliente() {
             mismatch: false,
         },
         {
-            date: new Date(),
+            date: new Date(new Date().setDate(new Date().getDate()-57)),
             gasStation: "PEMEX TEC",
             liters: 15,
             gasType: "Premium",
@@ -152,7 +152,7 @@ export default function RegistrarCliente() {
             mismatch: false,
         },
         {
-            date: new Date(new Date().setDate(new Date().getDate()-58)),
+            date: new Date(new Date().setDate(new Date().getDate()-60)),
             gasStation: "MOBIL GARZA SADA",
             liters: 10,
             gasType: "Premium",
@@ -160,7 +160,7 @@ export default function RegistrarCliente() {
             mismatch: false,
         },
         {
-            date: new Date(),
+            date: new Date(new Date().setDate(new Date().getDate()-62)),
             gasStation: "PEMEX TEC",
             liters: 12,
             gasType: "Premium",
